@@ -4,7 +4,7 @@ setlocal enabledelayedexpansion
 :: Configurações
 set ORIGEM=F:\
 set DESTINO=G:\Backup_F\
-set LOG="%DESTINO%\Backup_Log_%date:~-4,4%%date:~-7,2%%date:~-10,2%_%time:~0,2%%time:~3,2%.txt"
+set LOG="%DESTINO%Backup_Log_%date:~-4,4%%date:~-7,2%%date:~-10,2%_%time:~0,2%%time:~3,2%.txt"
 
 :: Criar pasta de destino se não existir
 if not exist "%DESTINO%" (
